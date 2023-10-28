@@ -1,6 +1,7 @@
 createDialog().then( config => {
 	return ClassicEditor
 		.create( document.querySelector( '.editor' ), {
+			licenseKey: config.licenseKey,
 			ckbox: {
 				tokenUrl: config.ckboxTokenUrl
 			}
@@ -16,7 +17,7 @@ function handleSampleError( error ) {
 
 	const message = [
 		'Oops, something went wrong!',
-		`Please, report the following error on ${ issueUrl } with the build id "duyt7xxzmqea-nohdljl880ze" and the error stack trace:`
+		`Please, report the following error on ${ issueUrl } with the build id "b6ewy97lcyi-nohdljl880ze" and the error stack trace:`
 	].join( '\n' );
 
 	console.error( message );
