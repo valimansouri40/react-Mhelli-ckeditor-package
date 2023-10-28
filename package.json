@@ -1,14 +1,16 @@
 {
-  "name": "ckeditor5-custom-build",
+  "name": "@mhelli-proj/ckeditor5-custom-build",
   "author": "CKSource",
   "description": "A custom CKEditor 5 build made by the CKEditor 5 online builder.",
   "version": "0.0.3",
   "license": "SEE LICENSE IN LICENSE.md",
-  "private": true,
+  "private": false,
+  "files": [
+    "./build/**/*"
+  ],
   "main": "./build/ckeditor.js",
   "types": "./build/ckeditor.d.ts",
   "dependencies": {
-    "@ckeditor/ckeditor5-ai": "40.0.0",
     "@ckeditor/ckeditor5-alignment": "40.0.0",
     "@ckeditor/ckeditor5-autoformat": "40.0.0",
     "@ckeditor/ckeditor5-basic-styles": "40.0.0",
@@ -17,10 +19,10 @@
     "@ckeditor/ckeditor5-cloud-services": "40.0.0",
     "@ckeditor/ckeditor5-editor-classic": "40.0.0",
     "@ckeditor/ckeditor5-essentials": "40.0.0",
-    "@ckeditor/ckeditor5-export-pdf": "40.0.0",
-    "@ckeditor/ckeditor5-find-and-replace": "40.0.0",
     "@ckeditor/ckeditor5-font": "40.0.0",
     "@ckeditor/ckeditor5-heading": "40.0.0",
+    "@ckeditor/ckeditor5-highlight": "40.0.0",
+    "@ckeditor/ckeditor5-horizontal-line": "40.0.0",
     "@ckeditor/ckeditor5-html-embed": "40.0.0",
     "@ckeditor/ckeditor5-html-support": "40.0.0",
     "@ckeditor/ckeditor5-image": "40.0.0",
@@ -28,9 +30,9 @@
     "@ckeditor/ckeditor5-link": "40.0.0",
     "@ckeditor/ckeditor5-list": "40.0.0",
     "@ckeditor/ckeditor5-media-embed": "40.0.0",
-    "@ckeditor/ckeditor5-pagination": "40.0.0",
     "@ckeditor/ckeditor5-paragraph": "40.0.0",
     "@ckeditor/ckeditor5-paste-from-office": "40.0.0",
+    "@ckeditor/ckeditor5-style": "40.0.0",
     "@ckeditor/ckeditor5-table": "40.0.0",
     "@ckeditor/ckeditor5-typing": "40.0.0",
     "@wiris/mathtype-ckeditor5": "8.5.0"
