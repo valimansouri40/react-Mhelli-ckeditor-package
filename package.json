@@ -4,7 +4,7 @@
   "description": "A custom CKEditor 5 build made by the CKEditor 5 online builder.",
   "version": "0.0.2",
   "license": "SEE LICENSE IN LICENSE.md",
-  "private": true,
+  "private": false,
   "main": "./build/ckeditor.js",
   "files": [
     "build/**/*"
@@ -28,7 +28,8 @@
     "@ckeditor/ckeditor5-paste-from-office": "40.0.0",
     "@ckeditor/ckeditor5-table": "40.0.0",
     "@ckeditor/ckeditor5-typing": "40.0.0",
-    "@wiris/mathtype-ckeditor5": "8.5.0"
+    "@wiris/mathtype-ckeditor5": "8.5.0",
+    "del-cli": "^5.1.0"
   },
   "devDependencies": {
     "@ckeditor/ckeditor5-dev-translations": "^32.1.2",
