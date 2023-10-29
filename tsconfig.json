@@ -15,7 +15,9 @@
     "sourceMap": true,
     "allowJs": true,
     "moduleResolution": "node",
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "outDir": "./build",
+    "declaration": true
   },
   "include": [
     "./src",
